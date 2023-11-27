@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8658540208756014359
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1616186116084684772}
+  - component: {fileID: 2214980234860468236}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1616186116084684772
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8658540208756014359}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.210968, y: -2.8275146, z: 102.98603}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2214980234860468236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8658540208756014359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7cc681221dcb494fb9eb3ee5e7b5771, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pnlQuadroAviso: {fileID: 0}
+  pnlVencer: {fileID: 0}
+  txtQuadroAviso: {fileID: 0}
+  picareta: 0
+  pa: 0
+  gelo: 0
+  chaveamarela: 0
+  chaveroxa: 0
+  chaverosa: 0
+  matrioskavermelha: 0
+  matrioskaAzul: 0
+  matrioskaverde: 0
+  MVerdeCompleta: 0
+  MAzulCompleta: 0
+  MVermelhaCompleta: 0
+  bolinha: 0
+  terminou: 0
